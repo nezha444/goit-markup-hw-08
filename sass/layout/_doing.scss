@@ -40,22 +40,20 @@
 //   margin-right: 30px;
 // }
 
+  .doing{
+    display: none;
+  }
 
 // mobile
 
 @media screen and (max-width: 767px){
-  .doing{
-    display: none;
-  }
 }
 
 
 // TABLET
 
 @media screen and (min-width: 768px){
-  .doing{
-    display: none;
-  }
+
 }
 
 
@@ -63,6 +61,7 @@
 
 @media screen and (min-width: 1200px){
   .doing {
+    display: block;
     padding-bottom: 94px;
   }
 
