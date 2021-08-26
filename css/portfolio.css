@@ -203,6 +203,7 @@
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 100%;
 }
 
 .address {
@@ -210,6 +211,7 @@
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .location {
@@ -242,15 +244,30 @@
   color: var(--color-white);
   margin-bottom: 20px;
   font-weight: 700;
+  text-align: center;
 }
 
 .my-social-link {
-  margin-left: 70px;
+  margin-bottom: 60px;
 }
 
 .footer-cont {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-nav-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  margin: 0;
 }
 
 .footer-form-input {
@@ -260,8 +277,8 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--color-grey);
-  margin-right: 12px;
-  width: 358px;
+  margin-bottom: 20px;
+  width: 450px;
 }
 
 .icon-icon-send {
@@ -274,13 +291,9 @@
   align-items: center;
 }
 
-.footer-form {
-  margin-left: 95px;
-}
-
 .footer-form-cont {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .button {
@@ -334,14 +347,15 @@ img {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
-@media (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 480px;
-    margin: 0 auto;
   }
 }
 
