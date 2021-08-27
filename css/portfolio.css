@@ -438,11 +438,19 @@ img {
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .window-text-pic:hover, .window-text-pic:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.window-text-pic-card {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .window-text {
@@ -457,13 +465,15 @@ img {
   height: 100%;
   padding: 63px 24px;
   transform: translateY(100%);
-  transition: transform 250ms linear;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 
 .text-project-box {
   padding: 20px 24px 20px 24px;
   border: 1px solid #EEEEEE;
   border-top: none;
+  height: 100%;
 }
 
 .project-name {
@@ -500,6 +510,11 @@ img {
 
 .project {
   margin-bottom: 30px;
+}
+
+.project:hover .window-text {
+  transform: translateY(0%);
+  background-color: rgba(33, 150, 243, 0.9);
 }
 
 @media screen and (min-width: 768px) {
