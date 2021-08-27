@@ -84,7 +84,6 @@ img {
 }
 
 .logo {
-  margin: 0 93px 0 0px;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -478,6 +477,7 @@ img {
   .logo {
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
   }
   .link {
     text-decoration: none;
@@ -505,6 +505,7 @@ img {
   .logo {
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
   }
 }
 
@@ -537,11 +538,11 @@ img {
   .logo {
     font-size: 26px;
     line-height: 31px;
-    text-align: start;
+    display: block;
+    text-align: left;
   }
   .address {
     text-align: start;
-    margin-left: -16px;
   }
 }
 

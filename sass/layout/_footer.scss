@@ -121,6 +121,7 @@
   .logo{
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
   }
 
   .link {
@@ -155,6 +156,7 @@
   .logo{
     font-size: 24px;
     line-height: 28px;
+    margin: 0;
   }
 }
 
@@ -199,13 +201,12 @@
   .logo{
     font-size: 26px;
     line-height: 31px;
-    text-align: start;
-
+    display: block;
+    text-align: left;
   }
 
   .address{
     text-align: start;
-    margin-left: -16px;
   }
 
 }
