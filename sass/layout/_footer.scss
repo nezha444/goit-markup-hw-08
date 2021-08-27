@@ -69,9 +69,7 @@
   margin-bottom: 60px;
 }
 
-.logo{
-  margin: 0;
-}
+
 
 // form
 
@@ -183,6 +181,7 @@
 
   .footer-nav-cont{
     margin-bottom: 0;
+
   }
 
   .my-social-link{
@@ -200,7 +199,13 @@
   .logo{
     font-size: 26px;
     line-height: 31px;
+    text-align: start;
+
   }
 
+  .address{
+    text-align: start;
+    margin-left: -16px;
+  }
 
 }
