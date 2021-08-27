@@ -174,10 +174,6 @@ img {
   color: #2196f3;
 }
 
-.link:visited {
-  color: none;
-}
-
 .header__contacts-link {
   display: block;
   font-weight: 500;

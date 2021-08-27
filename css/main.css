@@ -322,6 +322,10 @@ img {
   }
 }
 
+.doing-img {
+  width: 370px;
+}
+
 .doing {
   display: none;
 }
@@ -558,10 +562,6 @@ img {
 
 .link:focus {
   color: #2196f3;
-}
-
-.link:visited {
-  color: none;
 }
 
 .header__contacts-link {
