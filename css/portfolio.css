@@ -706,8 +706,8 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-cont {
-    align-items: baseline;
+  .footer-logo {
+    margin-left: -70px;
   }
   .footer-form {
     width: 570px;
