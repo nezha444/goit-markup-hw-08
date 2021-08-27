@@ -187,8 +187,6 @@ img {
 .header__contacts-link {
   display: block;
   font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--color-grey);
 }
 

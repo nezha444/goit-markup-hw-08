@@ -168,6 +168,8 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hero--ptop-pbot {
@@ -569,8 +571,6 @@ img {
 .header__contacts-link {
   display: block;
   font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
   color: var(--color-grey);
 }
 
