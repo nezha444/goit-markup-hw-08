@@ -7,7 +7,6 @@ body {
   margin: 0 auto;
   color: var(--color-black);
   font-family: 'Roboto', 'Raleway', sans-serif;
-
 }
 
 ul, ol {
@@ -18,4 +17,8 @@ img{
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body > header > .is-open{
+  overflow-y: hidden;
 }

@@ -61,9 +61,7 @@
 //   color: var(--color-black);
 // }
 
-// .header__item-link--color-blue{
-//   color: var(--color-blue);
-// }
+
 
 
 .header__icon-mail-tel{
@@ -171,13 +169,13 @@
   pointer-events: none;
   transition: opacity 250ms linear, visibility 250ms linear;
   z-index: 1;
-
 }
 
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+
 }
 
 
@@ -299,7 +297,9 @@
 // mobile
 
 @media screen and (max-width: 767px){
-
+.header__item-link--color-blue{
+  color: var(--color-blue);
+}
 }
 
 

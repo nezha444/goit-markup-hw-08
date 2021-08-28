@@ -70,7 +70,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  margin-top: 60px;
 }
 
 .btn-item:not(:last-child){
@@ -106,10 +105,10 @@
 //   transition: transform 250ms linear;
 // }
 
-
-// .main{
-//   padding: 94px 0 94px 0;
-// }
+.main{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
 
 
 // mobile
@@ -152,6 +151,9 @@
     margin-right: -30px;
   }
 
+  .main{
+  padding: 94px 0 94px 0;
+  }
   
 
 }
